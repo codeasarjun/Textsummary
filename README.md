@@ -1,4 +1,4 @@
-## Text Summarizer Using Flask✨ TF-IDF Text Summarization 📝
+## Text Summarizer ✨ TF-IDF Text Summarization 📝
 
 
 This project implements a simple text summarizer using the Flask web framework. The summarization process is based on TF-IDF (Term Frequency-Inverse Document Frequency). Users can input text through a web interface, and the application generates a summary based on the provided input.
@@ -46,10 +46,15 @@ Usage
 2.	Optionally, specify the number of sentences for the summary.
 3.	Click the "Summarize" button.
 4.	View the original text and the generated summary.
-Notes
-•	This project uses a TF-IDF-based extractive summarization approach.
-•	The summarization function is located in the CORE/text_summarizer.py file.
-•	Adjust the parameters in the tfidf_summarize function for desired summarization length.
-Future Improvements
-•	Explore more advanced summarization methods, such as BERT-based models.
-•	Enhance the user interface with additional features.
+
+   
+## Notes<br>
+•	This project uses a TF-IDF-based extractive summarization approach.<br>
+•	The summarization function is located in the CORE/text_summarizer.py file.<br>
+•	Adjust the parameters in the tfidf_summarize function for desired summarization length.<br>
+## Future Improvements
+•	Explore more advanced summarization methods, such as BERT-based models.<br>
+•	Enhance the user interface with additional features.<br>
+
+## Output <hr>
+<img src="https://github.com/codeasarjun/Textsummary/blob/main/img/output.png">
